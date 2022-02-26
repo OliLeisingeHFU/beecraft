@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "beecraftmod",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Beecraft Mod",
+  "description": "Inspired by classic tech mods and bees.",
   "authors": [
-    "Me!"
+    "Oliver Leisinger"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "http://sgsupport.de/",
+    "sources": "https://github.com/OliLeisingeHFU/beecraft"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/beecraftmod/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.olileisinger.beecraftmod.BeecraftMod"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "beecraftmod.mixins.json"
   ],
 
   "depends": {
