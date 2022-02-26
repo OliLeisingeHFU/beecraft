@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "top": "beecraft:block/grinder_top",
+    "front": "beecraft:block/grinder_front_on",
+    "side": "beecraft:block/grinder_side"
+  }
+}
