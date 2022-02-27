@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "beecraftmod:platinum_ingot"
+      "item": "beecraftmod:lead_ingot"
     }
   },
   "result": {
-    "item": "beecraftmod:platinum_block"
+    "item": "beecraftmod:lead_block"
   }
 }

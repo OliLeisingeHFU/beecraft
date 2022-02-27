@@ -18,6 +18,13 @@ public class ModBlocks {
 
     public static final Block PLATINUM_BLOCK = registerBlock("platinum_block",
             new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f)), ModItemGroup.BEECRAFT_METALS);
+    public static final Block LEAD_BLOCK = registerBlock("lead_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4.0f)), ModItemGroup.BEECRAFT_METALS);
+    public static final Block RAW_LEAD_BLOCK = registerBlock("raw_lead_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(3.0f)), ModItemGroup.BEECRAFT_METALS);
+    public static final Block LEAD_ORE = registerBlock("lead_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2.0f).requiresTool()), ModItemGroup.BEECRAFT_METALS);
+
     public static final Block GRINDER = registerBlock("grinder",
             new Grinder(FabricBlockSettings.of(Material.METAL).strength(2.0f)), ModItemGroup.BEECRAFT_MACHINERY);
 

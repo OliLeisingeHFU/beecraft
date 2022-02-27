@@ -11,7 +11,11 @@ import net.olileisinger.beecraftmod.BeecraftMod;
 
 public class ModItems {
 
-    public static final Item PLATINUM = registerItem("platinum",
+    public static final Item PLATINUM_INGOT = registerItem("platinum_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_METALS)));
+    public static final Item LEAD_INGOT = registerItem("lead_ingot",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_METALS)));
+    public static final Item RAW_LEAD = registerItem("raw_lead",
             new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_METALS)));
 
     private static Item registerItem(String name, Item item) {

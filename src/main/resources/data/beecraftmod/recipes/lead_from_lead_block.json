@@ -2,11 +2,11 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     {
-      "item": "beecraftmod:platinum_block"
+      "item": "beecraftmod:lead_block"
     }
   ],
   "result": {
-    "item": "beecraftmod:platinum_ingot",
+    "item": "beecraftmod:lead_ingot",
     "count": 9
   }
 }
