@@ -3,6 +3,8 @@ package net.olileisinger.beecraftmod;
 import net.fabricmc.api.ModInitializer;
 import net.olileisinger.beecraftmod.block.ModBlocks;
 import net.olileisinger.beecraftmod.item.ModItems;
+import net.olileisinger.beecraftmod.world.features.ModConfiguredFeatures;
+import net.olileisinger.beecraftmod.world.gen.ModWorldGen;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -20,6 +22,9 @@ public class BeecraftMod implements ModInitializer {
 		// Proceed with mild caution.
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModConfiguredFeatures.registerConfiguredFeatures();
+
+		ModWorldGen.generateModWorldGen();
 
 		LOGGER.info("Hello Fabric world!");
 	}
