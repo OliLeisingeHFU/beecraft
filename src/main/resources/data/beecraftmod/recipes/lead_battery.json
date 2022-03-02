@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "#B#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "beecraftmod:lead_ingot"
+    },
+    "B": {
+      "item": "beecraftmod:acid_bottle"
+    }
+  },
+  "result": {
+    "item": "beecraftmod:lead_battery"
+  }
+}

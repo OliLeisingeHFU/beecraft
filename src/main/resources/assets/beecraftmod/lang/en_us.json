@@ -4,6 +4,9 @@
   "item.beecraftmod.raw_lead": "Raw Lead",
   "item.beecraftmod.acid_bottle": "Bottle of Acid",
   "item.beecraftmod.sulfur": "Sulfur",
+  "item.beecraftmod.lead_battery": "Lead Battery",
+  "item.beecraftmod.copper_cable": "Copper Cable",
+  "item.beecraftmod.rubber": "Rubber",
 
   "block.beecraftmod.platinum_block": "Block of Platinum",
   "block.beecraftmod.lead_block": "Block of Lead",
@@ -14,5 +17,6 @@
 
   "itemGroup.beecraftmod.metal": "Beecraft Metals",
   "itemGroup.beecraftmod.chemicals": "Beecraft Chemicals",
-  "itemGroup.beecraftmod.machinery": "Beecraft Machines"
+  "itemGroup.beecraftmod.machinery": "Beecraft Machines",
+  "itemGroup.beecraftmod.essentials": "Beecraft Essentials"
 }

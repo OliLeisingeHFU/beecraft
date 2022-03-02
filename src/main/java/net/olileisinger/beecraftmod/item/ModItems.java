@@ -5,7 +5,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import net.olileisinger.beecraftmod.BeecraftMod;
-
+import net.olileisinger.beecraftmod.item.custom.BeecraftBattery;
 
 
 public class ModItems {
@@ -21,6 +21,13 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_CHEMICALS)));
     public static final Item SULFUR = registerItem("sulfur",
             new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_CHEMICALS)));
+
+    public static final Item LEAD_BATTERY = registerItem("lead_battery",
+            new BeecraftBattery(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS).maxCount(1), (4000 * 8), 100, 100));
+    public static final Item COPPER_CABLE = registerItem("copper_cable",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
+    public static final Item RUBBER = registerItem("rubber",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(BeecraftMod.MOD_ID, name), item);

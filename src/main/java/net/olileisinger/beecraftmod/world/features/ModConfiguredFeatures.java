@@ -25,12 +25,12 @@ public class ModConfiguredFeatures {
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD, ModBlocks.SULFUR_ORE.getDefaultState(), 4)).range(new RangeDecoratorConfig(
             UniformHeightProvider.create(YOffset.aboveBottom(55), YOffset.fixed(320)))).spreadHorizontally().repeat(10), SULFUR_ORE_KEY);
 
-    private static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String name){
-        return RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY, new Identifier(BeecraftMod.MOD_ID, name));
+    private static RegistryKey<ConfiguredFeature<?, ?>> registryKey(String _name){
+        return RegistryKey.of(Registry.CONFIGURED_FEATURE_KEY, new Identifier(BeecraftMod.MOD_ID, _name));
     }
 
-    private static ConfiguredFeature<?, ?> register(ConfiguredFeature<?, ?> configuredFeature, RegistryKey<ConfiguredFeature<?, ?>> key) {
-        return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, key.getValue(), configuredFeature);
+    private static ConfiguredFeature<?, ?> register(ConfiguredFeature<?, ?> configuredFeature, RegistryKey<ConfiguredFeature<?, ?>> _key) {
+        return Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, _key.getValue(), configuredFeature);
     }
 
     public static void registerConfiguredFeatures() {

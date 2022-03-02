@@ -25,21 +25,21 @@ public class ModBlocks {
     public static final Block LEAD_ORE = registerBlock("lead_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool()), ModItemGroup.BEECRAFT_METALS);
 
-    public static final Block SULFUR_ORE = registerBlock("lead_ore",
+    public static final Block SULFUR_ORE = registerBlock("sulfur_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(2.0f).requiresTool()), ModItemGroup.BEECRAFT_CHEMICALS);
 
     public static final Block GRINDER = registerBlock("grinder",
             new Grinder(FabricBlockSettings.of(Material.METAL).strength(2.0f)), ModItemGroup.BEECRAFT_MACHINERY);
 
 
-    private static Block registerBlock(String name, Block block, ItemGroup group){
-        registerBlockItem(name, block, group);
-        return Registry.register(Registry.BLOCK, new Identifier(BeecraftMod.MOD_ID, name), block);
+    private static Block registerBlock(String _name, Block _block, ItemGroup _group){
+        registerBlockItem(_name, _block, _group);
+        return Registry.register(Registry.BLOCK, new Identifier(BeecraftMod.MOD_ID, _name), _block);
     }
 
-    private static Item registerBlockItem(String name, Block block, ItemGroup group){
-        return Registry.register(Registry.ITEM, new Identifier(BeecraftMod.MOD_ID, name),
-                new BlockItem(block, new FabricItemSettings().group(group)));
+    private static Item registerBlockItem(String _name, Block _block, ItemGroup _group){
+        return Registry.register(Registry.ITEM, new Identifier(BeecraftMod.MOD_ID, _name),
+                new BlockItem(_block, new FabricItemSettings().group(_group)));
     }
 
     public static void registerModBlocks(){
