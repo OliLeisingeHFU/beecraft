@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "beecraftmod:sulfur"
+    },
+    {
+      "item": "minecraft:potion"
+    },
+    {
+      "item": "minecraft:redstone"
+    }
+  ],
+  "result": {
+    "item": "beecraftmod:acid_bottle",
+    "count": 1
+  }
+}

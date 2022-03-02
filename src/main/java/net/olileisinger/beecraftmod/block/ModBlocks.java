@@ -25,6 +25,9 @@ public class ModBlocks {
     public static final Block LEAD_ORE = registerBlock("lead_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(3.0f).requiresTool()), ModItemGroup.BEECRAFT_METALS);
 
+    public static final Block SULFUR_ORE = registerBlock("lead_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(2.0f).requiresTool()), ModItemGroup.BEECRAFT_CHEMICALS);
+
     public static final Block GRINDER = registerBlock("grinder",
             new Grinder(FabricBlockSettings.of(Material.METAL).strength(2.0f)), ModItemGroup.BEECRAFT_MACHINERY);
 
