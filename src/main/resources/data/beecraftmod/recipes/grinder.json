@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "A A",
+    "BCB",
+    "D D"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:flint"
+    },
+    "B": {
+      "item": "beecraftmod:spin_plate"
+    },
+    "C": {
+      "item": "beecraftmod:machine_case"
+    },
+    "D": {
+      "item": "beecraftmod:ac_module"
+    }
+  },
+  "result": {
+    "item": "beecraftmod:grinder"
+  }
+}

@@ -18,5 +18,5 @@ public class ModItemGroup {
             () -> new ItemStack(ModItems.LEAD_BATTERY));
 
     public static final ItemGroup BEECRAFT_MACHINERY = FabricItemGroupBuilder.build(new Identifier(BeecraftMod.MOD_ID, "machines"),
-            () -> new ItemStack(ModBlocks.GRINDER));
+            () -> new ItemStack(ModBlocks.MACHINE_CASE));
 }

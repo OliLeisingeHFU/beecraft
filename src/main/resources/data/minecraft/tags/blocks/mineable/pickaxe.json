@@ -5,6 +5,7 @@
     "beecraftmod:sulfur_ore",
     "beecraftmod:lead_block",
     "beecraftmod:raw_lead_block",
-    "beecraftmod:grinder"
+    "beecraftmod:grinder",
+    "beecraftmod:machine_case"
   ]
 }

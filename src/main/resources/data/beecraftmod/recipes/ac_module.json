@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "AB ",
+    "B#B",
+    "AB "
+  ],
+  "key": {
+    "#": {
+      "item": "beecraftmod:coil"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": {
+      "item": "beecraftmod:copper_cable"
+    }
+  },
+  "result": {
+    "item": "beecraftmod:ac_module"
+  }
+}

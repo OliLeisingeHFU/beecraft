@@ -1,6 +1,7 @@
 package net.olileisinger.beecraftmod.item.custom;
 
 import net.minecraft.item.Item;
+import team.reborn.energy.api.EnergyStorage;
 import team.reborn.energy.api.base.SimpleBatteryItem;
 
 public class BeecraftBattery extends Item implements SimpleBatteryItem {

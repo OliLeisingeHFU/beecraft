@@ -30,6 +30,8 @@ public class ModBlocks {
 
     public static final Block GRINDER = registerBlock("grinder",
             new Grinder(FabricBlockSettings.of(Material.METAL).strength(2.0f)), ModItemGroup.BEECRAFT_MACHINERY);
+    public static final Block MACHINE_CASE = registerBlock("machine_case",
+            new Grinder(FabricBlockSettings.of(Material.METAL).strength(1.1f)), ModItemGroup.BEECRAFT_MACHINERY);
 
 
     private static Block registerBlock(String _name, Block _block, ItemGroup _group){

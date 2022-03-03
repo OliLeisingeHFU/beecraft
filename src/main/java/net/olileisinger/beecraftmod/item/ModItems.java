@@ -26,7 +26,17 @@ public class ModItems {
             new BeecraftBattery(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS).maxCount(1), (4000 * 8), 100, 100));
     public static final Item COPPER_CABLE = registerItem("copper_cable",
             new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
+    public static final Item COPPER_WIRE = registerItem("copper_wire",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
+    public static final Item COIL = registerItem("coil",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
+    public static final Item AC_MODULE = registerItem("ac_module",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
     public static final Item RUBBER = registerItem("rubber",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
+    public static final Item IRON_ROD = registerItem("iron_rod",
+            new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
+    public static final Item SPIN_PLATE = registerItem("spin_plate",
             new Item(new FabricItemSettings().group(ModItemGroup.BEECRAFT_ESSENTIALS)));
 
     private static Item registerItem(String name, Item item) {

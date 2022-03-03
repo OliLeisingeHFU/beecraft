@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    "BBB",
+    " A "
+  ],
+  "key": {
+    "B": {
+      "item": "beecraftmod:copper_wire"
+    },
+    "A": {
+      "item": "beecraftmod:rubber"
+    }
+  },
+  "result": {
+    "item": "beecraftmod:copper_cable",
+    "count": 3
+  }
+}

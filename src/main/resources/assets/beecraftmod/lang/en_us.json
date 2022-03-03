@@ -7,6 +7,11 @@
   "item.beecraftmod.lead_battery": "Lead Battery",
   "item.beecraftmod.copper_cable": "Copper Cable",
   "item.beecraftmod.rubber": "Rubber",
+  "item.beecraftmod.coil": "Coil",
+  "item.beecraftmod.copper_wire": "Copper Wire",
+  "item.beecraftmod.ac_module": "AC Module",
+  "item.beecraftmod.spin_plate": "Spinning Plate",
+  "item.beecraftmod.iron_rod": "Iron Rod",
 
   "block.beecraftmod.platinum_block": "Block of Platinum",
   "block.beecraftmod.lead_block": "Block of Lead",
@@ -14,6 +19,7 @@
   "block.beecraftmod.lead_ore": "Lead Ore",
   "block.beecraftmod.sulfur_ore": "Sulfur Ore",
   "block.beecraftmod.grinder": "Industrial Grinder",
+  "block.beecraftmod.machine_case": "Machine Case",
 
   "itemGroup.beecraftmod.metal": "Beecraft Metals",
   "itemGroup.beecraftmod.chemicals": "Beecraft Chemicals",

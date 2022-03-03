@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "beecraftmod:copper_wire"
+    },
+    "A": {
+      "item": "beecraftmod:iron_rod"
+    }
+  },
+  "result": {
+    "item": "beecraftmod:coil"
+  }
+}
